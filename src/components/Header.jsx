@@ -12,7 +12,7 @@ function Header () {
                                 <h1>
                                     Guilherme Mascarenhas
                                 </h1>
-                                <p>duis aute dolor on reprehender in voluptareu dolore nulla periatur</p>
+                                <p>Desenvolverdor Front-end | Design</p>
                                 <div className="header_buttons">
                                     <a href="header" className="btn btn-outiline">
                                       contrate-me
