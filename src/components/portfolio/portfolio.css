@@ -1,0 +1,60 @@
+.flexSB {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio {
+    position: relative;
+    margin-top: 7rem;
+    z-index: 1;
+}
+
+.portfolio h1 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.portfolio li {
+    margin-left: 30px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.portfolio li:hover,
+.portfolio li.active {
+    background-color: #6f34fe;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.portfolio img {
+    width: 260px;
+    height: 100%;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.left {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.left h2 {
+    color: #6f34fe;
+    margin-top: 1rem;
+}
+
+.links {
+    margin-top: 2rem;
+}
+
+.portfolio .box {
+    position: relative;
+    display: inline-block;
+
+}
+
+/* Parei 42:43 */
