@@ -6,7 +6,7 @@ function Portfolio () {
     const [item, setItem] = useState(data);
 
     const filterItem = (cateItem) => {
-       const updateItem = data.filterItem((curElem) => {
+       const updateItem = data.filter((curElem) => {
          return curElem.category === cateItem
        })
        setItem(updateItem)
@@ -31,9 +31,9 @@ function Portfolio () {
             </div>
                 <div className="content grid mtop">
                     {item.map((elem) => {
-                        const {cover, title} = elem;
+                        const {cover, title, link} = elem;
                         return(
-                           <div className="box">
+                           <div className="box" onClick={link}>
                              <div className="img">
                                 <img src={cover} alt="" />
                              </div>
