@@ -12,7 +12,7 @@ function Portfolio () {
        setItem(updateItem)
     };
     return(
-      <section className="portfolio mtop">
+      <section id="portifolio" className="portfolio mtop">
         <div className="container">
 
             <div className="head flexSB">
@@ -24,9 +24,10 @@ function Portfolio () {
 
             <div className="links">
                 <ul className="flexSB">
-                    <li className="active" onClick={() => setItem(data)}>All</li>
+                    <li className="active" onClick={() => setItem(data)}>Todos</li>
                     <li onClick={() => filterItem("Developer")}>Developer</li>
                     <li onClick={() => filterItem("Design")}>Design</li>
+                    <li><a href="https://github.com/GuiDEV1" target="_blank">Ver mais</a></li>
                 </ul>
             </div>
                 <div className="content grid mtop">

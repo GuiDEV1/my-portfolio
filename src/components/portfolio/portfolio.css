@@ -4,6 +4,15 @@
     justify-content: center;
 }
 
+.flexSB a {
+    text-decoration: none;
+    color: #000;
+}
+
+.flexSB a:hover {
+    color: #fff;
+}
+
 .portfolio {
     position: relative;
     margin-top: 7rem;
