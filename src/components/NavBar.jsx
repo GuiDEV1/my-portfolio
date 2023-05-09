@@ -15,7 +15,7 @@ function NavBar () {
                      {state ? (
                         <ul className="navbar_right">
                            <li><a href="">Home</a></li>
-                           <li><a href="">Sobre mim</a></li>
+                           <li><a href="#about">Sobre mim</a></li>
                            <li><a href="">Habilidades</a></li>
                            <li><a href="">Experiência</a></li>
                            <li><a href="#portifolio">Projetos</a></li>
