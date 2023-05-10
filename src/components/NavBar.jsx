@@ -35,4 +35,3 @@ function NavBar () {
 
 export default NavBar;
 
-// Parei no 16:06

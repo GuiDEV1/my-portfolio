@@ -17,8 +17,7 @@ function Portfolio () {
 
             <div className="head flexSB">
                 <div className="left">
-                    <h6>Creative Works</h6>
-                    <h2>Veja meus projetos</h2>
+                    <h2>Meus principais projetos</h2>
                 </div>
             </div>
 

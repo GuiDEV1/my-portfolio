@@ -90,4 +90,5 @@
 
 .portfolio .box:hover .overlay{
   opacity: 1;
+  background: #000;
 }
