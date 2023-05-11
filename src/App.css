@@ -31,7 +31,7 @@ h4 {
 }
 
 .bgMain {
-  background: #e6e8f2;
+  background: #e6e9f2;
   border-radius: 25px;
   padding: 0.5rem;
 }
@@ -127,7 +127,23 @@ header {
  font-size: 80px;
  font-weight: 700;
  margin-bottom: 20px;
- display: inline;
+}
+
+.header-section h1::after {
+  content: '|';
+  color: #000;
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca .8s infinite;
+}
+
+@keyframes pisca{
+  0%, 100%{
+      opacity: 1;
+  }
+  50%{
+      opacity: 0;
+  }
 }
 
 .header-section h2 {
@@ -274,6 +290,48 @@ header {
 .about-btn-outiline:hover {
  background-color: #6f34fe;
 }
+
+/* Skils */
+
+.services {
+  margin-top: 5rem;
+  background-color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.heading {
+  color: #3f396f;
+  font-size: 3rem;
+  margin-bottom: 33px;
+}
+
+.services_box {
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  padding: 40px 36px;
+  box-shadow: 0 0 85px 0 #e9eefc;
+  border-radius: 20px;
+  transition-duration: 0.5s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+
+.services_box:hover {
+  transform: scale(1.1) translateY(-12px);
+  border: 1px solid #6f34fe;
+}
+
+.commonIcons {
+  width: 150px;
+}
+
+.services_box-header {
+  color: #6f34fe;
+  font-weight: 700;
+}
+
+
 
 
 

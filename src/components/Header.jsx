@@ -1,6 +1,25 @@
 import React from "react";
+import { useEffect } from "react";
+
+function typeWrite(elemento) {
+    const textoArray = elemento.innerHTML.split('');
+    elemento.innerHTML = '';
+    textoArray.forEach(function(letra, i){   
+      setTimeout(function(){
+        elemento.innerHTML += letra;
+      }, 120 * i)
+    });
+  }
 
 function Header () {
+    useEffect(() => {
+        const titulo = document.querySelector('#titleHeader');
+        if (titulo) {
+          typeWrite(titulo);
+        }
+      }, []);
+
+
     return (
         <header className="header">
             <div className="container">
@@ -9,7 +28,7 @@ function Header () {
                         <div className="header_content">
                             <div className="header-section">
                                 <h2>Printf("hellow world!");</h2>
-                                <h1>
+                                <h1 id="titleHeader">
                                     Guilherme Mascarenhas
                                 </h1>
                                 <p>Desenvolverdor Front-end | Design</p>
@@ -29,5 +48,7 @@ function Header () {
         </header>
     )
 }
+
+
 
 export default Header;
