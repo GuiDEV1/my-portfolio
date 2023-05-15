@@ -61,7 +61,7 @@ function Skils () {
          <div className="container">
             <div className="services_haeader">
                 <div className="common">
-                    <h2 className="heading">{header.mainHeader}</h2>
+                    <h2 id="skils" className="heading">{header.mainHeader}</h2>
                     <div className="commonBorder"></div>
                 </div>
 
@@ -85,4 +85,3 @@ function Skils () {
 
 export default Skils;
 
-//1:07:40

@@ -21,7 +21,7 @@ function Header () {
 
 
     return (
-        <header className="header">
+        <header id="header" className="header">
             <div className="container">
                 <div className="row">
                     <div className="col-6">
@@ -33,7 +33,7 @@ function Header () {
                                 </h1>
                                 <p>Desenvolverdor Front-end | Design</p>
                                 <div className="header_buttons">
-                                    <a href="header" className="btn btn-outiline">
+                                    <a href="https://api.whatsapp.com/send?phone=5511948616894&text=Ol%C3%A1,%20bom%20dia." target="_blank" className="btn btn-outiline">
                                       contrate-me
                                     </a>
                                 </div>

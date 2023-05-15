@@ -14,12 +14,11 @@ function NavBar () {
                     </ul>
                      {state ? (
                         <ul className="navbar_right">
-                           <li><a href="">Home</a></li>
+                           <li><a href="#header">Home</a></li>
                            <li><a href="#about">Sobre mim</a></li>
-                           <li><a href="">Habilidades</a></li>
-                           <li><a href="">Experiência</a></li>
+                           <li><a href="#skils">Habilidades</a></li>
                            <li><a href="#portifolio">Projetos</a></li>
-                           <li><a href="">Contato</a></li>
+                           <li><a href="#contato">Contato</a></li>
                         </ul>
                      ): (
                         ""
