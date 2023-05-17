@@ -45,4 +45,6 @@ function About () {
 
 export default About;
 
-
+/*
+ Dar sequencia ao modo escuro
+*/

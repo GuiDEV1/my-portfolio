@@ -6,17 +6,18 @@
 
 .flexSB a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 .flexSB a:hover {
-    color: #fff;
+    color: #6f34fe;
 }
 
 .portfolio {
     position: relative;
     margin-top: 7rem;
     z-index: 1;
+    background-color: #1a1818;
 }
 
 .portfolio h1 {
@@ -29,13 +30,16 @@
     font-size: 17px;
     cursor: pointer;
     transition: 0.5s;
+    color: #fff;
+    font-weight: 550;
 }
 
 .portfolio li:hover,
 .portfolio li.active {
-    background-color: #6f34fe;
-    color: #fff;
+    background-color: #ffff;
+    color: #6f34fe;
     padding: 5px 10px;
+    border-radius: 10px;
 }
 
 .portfolio img {
