@@ -22,13 +22,15 @@ function About () {
                         <h1>Desenvolvedor Front-end | Design</h1>
                         <div className="about_info">
                             <p>
-                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi 
-                               libero a distinctio architecto, molestiae, esse in omnis impedit atque 
-                               voluptatem dolor dolorem facere numquam eos amet suscipit! Nemo, officiis! Labore.
-                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi 
+                               Olá, me chamo Guilherme. Nasci na capital de São Paulo, sempre fui apaixonado por tecnologias, porém, no início não 
+                               sabia qual ramo seguir. Até que decidi estudar programação.
+                               Através dela, conheci e desenvolvi grande interesse em Front-end e Design, 
+                               e venho os desenvolvendo desde então. A música e os games como hobby sempre mantiveram minha mente aberta e conectada com o mundo a minha volta, em partes tornando a mesma 
+                               fortemente alimentada por desafios e possibilidades.
+                               
                                <br /><br />
-                               libero a distinctio architecto, molestiae, esse in omnis impedit atque 
-                               voluptatem dolor dolorem facere numquam eos amet suscipit! Nemo, officiis! Labore.
+                                Mesmo com a carga educacional da faculdade referente ao tema, sempre busquei por mais e me mantenho constantemente atualizado. 
+                                Tenho como meta avançar meus conhecimentos até a posição de Desenvolvedor Front-end Sênior.
                             </p>
 
                             <div className="about_buttons">
