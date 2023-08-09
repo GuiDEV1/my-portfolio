@@ -54,6 +54,21 @@ function Skils () {
             icon: './icons/php.png',
             heading: "PHP"
         },
+        {
+            id: 10,
+            icon: './icons/itailwind-css.png',
+            heading: "Tailwind CSS"
+        },
+        {
+            id: 11,
+            icon: './icons/nextjsIcon.png',
+            heading: "Next.JS"
+        },
+        {
+            id: 12,
+            icon: './icons/typescript.png',
+            heading: "TypeScript"
+        },
     ];
 
     return (
