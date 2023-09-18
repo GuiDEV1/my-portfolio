@@ -1,6 +1,6 @@
 import React from "react";
 
-function About () {
+function About () {    
     return (
      <div id="about" className="about">
         <div className="container">
@@ -13,7 +13,8 @@ function About () {
             <div className="row h-650 align">
                 <div className="col-6">
                     <div className="about_img">
-                        <img src="./images/about.jpg" alt="" />
+                        
+                        <img src="https://avatars.githubusercontent.com/u/100242616?v=4" alt="" />
                     </div>
                 </div>
 
@@ -50,3 +51,5 @@ export default About;
 /*
  Dar sequencia ao modo escuro
 */
+
+

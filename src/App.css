@@ -202,10 +202,10 @@ header {
 
 .image {
   width: 80vh;
-  border: solid 7px rgb(112, 14, 198);
+  border: solid 7px #e79a1e;
   border-radius: 100%;
   /*box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.652);*/
-  box-shadow: 0 0 22px #4387df;
+  box-shadow: 0 0 22px #646465;
 }
 
 .image { 
@@ -250,6 +250,7 @@ header {
 }
 
 .about_img img {
+  margin-top: 12px;
   width: 400px;
   border-radius: 10px;
   border: 2.6px solid #6f34fe;
@@ -275,7 +276,6 @@ header {
 }
 
 .about_info h1 {
- margin-top: 6rem;
  margin-bottom: 30px;
  font-size: 40px;
  color: #9035eb;
@@ -441,6 +441,7 @@ border-top: 1px solid #38354d;
   cursor: pointer;
   align-items: center;
   justify-content: center;
+  transition: all 0.9s;
 }
 
 
@@ -471,7 +472,7 @@ border-top: 1px solid #38354d;
     position: fixed;
     top: 0;
     left: 0;
-    transition: all 0.5s;
+    transition: all 0.8s;
   }
 
   .navbar_right li a{
