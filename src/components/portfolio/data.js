@@ -87,11 +87,29 @@ const data = [
         category: "Design", 
         link : () => {
           window.open('https://www.figma.com/proto/fsWWGMHVvUSJ9GIOEsBlGT/DkGames?page-id=15%3A34&type=design&node-id=17-78&viewport=3128%2C438%2C0.31&scaling=scale-down&starting-point-node-id=16%3A37&show-proto-sidebar=1');
-       }
+       } ,
       } ,
+      {
+        id: 11,
+        cover: "./images/amazon.png",
+        title: "Amazon Clone",
+        category: "Developer", 
+        link : () => {
+          window.open('https://clone-amazon-topaz.vercel.app');
+       } ,
+      } ,
+      {
+        id: 11,
+        cover: "./images/budapp.png",
+        title: "Budapp",
+        category: "Developer", 
+        link : () => {
+          window.open('https://github.com/GuiDEV1/budapp');
+       } ,
+      } ,
+      
 ];
 
 export default data;
 
 
-// Devoloper: 7 Design : 3
